@@ -1,7 +1,13 @@
 import React from 'react';
 
-function Home() {
-  return <div>Home</div>;
-}
+import Poster from '../Poster/Poster';
+
+const Home = () => {
+  return (
+    <>
+      <Poster />
+    </>
+  );
+};
 
 export default Home;
